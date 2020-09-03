@@ -9,7 +9,7 @@ data:
     - rolearn: arn:aws:iam::496278789073:role/CodeBuildForSkcc07
       username: CodeBuildForSkcc07
       groups:
-        - system:masters
+      - system:masters
   mapUsers: |
     []
 kind: ConfigMap
